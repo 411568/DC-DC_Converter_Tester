@@ -1,3 +1,6 @@
 [submodule "DC-DC_Converter_Tester_Hardware"]
 	path = DC-DC_Converter_Tester_Hardware
 	url = https://github.com/411568/DC-DC_Converter_Tester_Hardware.git
+[submodule "DC-DC_Converter_Tester_Firmware"]
+	path = DC-DC_Converter_Tester_Firmware
+	url = https://github.com/411568/DC-DC_Converter_Tester_Firmware.git
