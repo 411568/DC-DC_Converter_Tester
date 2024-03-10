@@ -7,7 +7,7 @@ G³ównym za³o¿eniem projektu jest zaprojektowanie i zbudowanie urz¹dzenia umo¿liw
 * Maksymalna moc na wejsciu przetwornicy - 100W (25 V * 4 A)
 * Wyswietlacz z interfejsem do kontroli dzialania urz¹dzenia
 * Mo¿liwosæ wys³ania danych poprzez USB na komputer
-* 
+ 
 ## Opcjonalna funkcjonalnosæ
 * Pomiar regulacji napiêcia wyjsciowego - jak bardzo zmienia siê napiêcie wyjsciowe w zale¿nosci od napiêcia wejsciowego i obci¹¿enia
 * Pomiar temperatury przetwornicy - wejscie na np. termoparê albo kilka czujników temperatury.
