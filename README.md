@@ -8,24 +8,23 @@ It consists of three modules:
 
 ## Working principle
 
-![Menu diagram](\Dokumentacja_projektu\Engineering_project\images\menu_diagram.png)
+![Menu diagram](/Dokumentacja_projektu/Engineering_project/images/menu_diagram.png)
 
 
 
 ## Controller board
-
-![Controller board PCB](\Dokumentacja_projektu\Engineering_project\images\controller_PCB.jpg)
+![Controller board PCB](/Dokumentacja_projektu/Engineering_project/images/controller_PCB.jpg)
 
 
 ## Power supply board
 
-![Power supply board PCB](\Dokumentacja_projektu\Engineering_project\images\converter_PCB.jpg)
+![Power supply board PCB](/Dokumentacja_projektu/Engineering_project/images/converter_PCB.jpg)
 
 
 
 ## Active load board
 
-![Active load board PCB](\Dokumentacja_projektu\Engineering_project\images\dc_load_PCB.jpg)
+![Active load board PCB](/Dokumentacja_projektu/Engineering_project/images/dc_load_PCB.jpg)
 
 
 
