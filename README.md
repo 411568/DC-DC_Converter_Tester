@@ -1,4 +1,4 @@
-# Modular Device for Measureing DC/DC Converter Parameters
+# Modular Device for Measuring DC/DC Converter Parameters
 
 The DC/DC converter tester is a device built for an engineering project at AGH University in Cracow. 
 It consists of three modules: 
@@ -28,7 +28,7 @@ It consists of three modules:
 
 
 
-## Docuemntation and project files
+## Documentation and project files
 
 
 
