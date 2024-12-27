@@ -1,0 +1,2456 @@
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.12.5)  26 DEC 2024 14:38
+ restricted system commands enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+Lua module: luaotfload 2024-02-14 v3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "C:/texlive/2024/texmf-var/luatex-ca
+che/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "c:/texlive/2024/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-
+28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/texlive/2024/texmf-var/luatex-ca
+che/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (c:/texlive/2024/texmf-
+dist/tex/latex/base/report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/texlive/2024/texmf-var/luat
+ex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen140
+)
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(c:/texlive/2024/texmf-dist/tex/latex/polski/polski.sty
+Package: polski 2021/08/25 v1.3.6 Polish language package
+\l@polish=\language2
+
+(c:/texlive/2024/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-pl.tex))
+(c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/11/30 v24.14 The multilingual framework for pdfLaTeX, LuaLa
+TeX and XeLaTeX
+
+(c:/texlive/2024/texmf-dist/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@dumylang=\language3
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@nohyphenation=\language4
+\l@vietnamese=\language5
+\l@hebrew=\language6
+\l@german-x-2024-02-28=\language7
+\l@ngerman-x-2024-02-28=\language8
+\l@afrikaans=\language9
+\l@ancientgreek=\language10
+\l@ibycus=\language11
+\l@arabic=\language12
+\l@armenian=\language13
+\l@basque=\language14
+\l@belarusian=\language15
+\l@bulgarian=\language16
+\l@catalan=\language17
+\l@pinyin=\language18
+\l@churchslavonic=\language19
+\l@coptic=\language20
+\l@croatian=\language21
+\l@czech=\language22
+\l@danish=\language23
+\l@dutch=\language24
+\l@ukenglish=\language25
+\l@usenglishmax=\language26
+\l@esperanto=\language27
+\l@estonian=\language28
+\l@ethiopic=\language29
+\l@farsi=\language30
+\l@finnish=\language31
+\l@schoolfinnish=\language32
+\l@french=\language33
+\l@friulan=\language34
+\l@galician=\language35
+\l@georgian=\language36
+\l@german=\language37
+\l@ngerman=\language38
+\l@swissgerman=\language39
+\l@greek=\language40
+\l@monogreek=\language41
+\l@hungarian=\language42
+\l@icelandic=\language43
+\l@assamese=\language44
+\l@bengali=\language45
+\l@gujarati=\language46
+\l@hindi=\language47
+\l@kannada=\language48
+\l@malayalam=\language49
+\l@marathi=\language50
+\l@oriya=\language51
+\l@pali=\language52
+\l@panjabi=\language53
+\l@tamil=\language54
+\l@telugu=\language55
+\l@indonesian=\language56
+\l@interlingua=\language57
+\l@irish=\language58
+\l@italian=\language59
+\l@kurmanji=\language60
+\l@classiclatin=\language61
+\l@latin=\language62
+\l@liturgicallatin=\language63
+\l@latvian=\language64
+\l@lithuanian=\language65
+\l@macedonian=\language66
+\l@mongolian=\language67
+\l@mongolianlmc=\language68
+\l@bokmal=\language69
+\l@nynorsk=\language70
+\l@occitan=\language71
+\l@piedmontese=\language72
+\l@polish=\language73
+\l@portuguese=\language74
+\l@romanian=\language75
+\l@romansh=\language76
+\l@russian=\language77
+\l@sanskrit=\language78
+\l@serbian=\language79
+\l@serbianc=\language80
+\l@slovak=\language81
+\l@slovenian=\language82
+\l@spanish=\language83
+\l@swedish=\language84
+\l@thai=\language85
+\l@turkish=\language86
+\l@turkmen=\language87
+\l@ukrainian=\language88
+\l@uppersorbian=\language89
+\l@welsh=\language90
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
+)
+\babel@savecnt=\count269
+\U@D=\dimen143
+\l@unhyphenated=\language91
+
+(c:/texlive/2024/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+)
+(c:/texlive/2024/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language25). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language25). Reported on input line 108.
+)
+(c:/texlive/2024/texmf-dist/tex/generic/babel-polish/polish.ldf
+Language: polish 2022/03/12 1.3 Babel support for Polish
+Package babel Info: Making " an active character on input line 101.
+
+(c:/texlive/2024/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-pl.tex
+UTF-8 Polish hyphenation patterns
+(c:/texlive/2024/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-pl.tex))))
+(c:/texlive/2024/texmf-dist/tex/generic/babel/locale/pl/babel-polish.tex
+Package babel Info: Importing font and identification data for polish
+(babel)             from babel-pl.ini. Reported on input line 11.
+)
+(c:/texlive/2024/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/impnattypo/impnattypo.sty
+Package: impnattypo 2019/03/04 1.5 Typographic utilities inspired by the French
+ Imprimerie Nationale
+Package: impnattypo 
+
+(c:/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(c:/texlive/2024/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(c:/texlive/2024/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count270
+)
+\CatcodeTableOther=\catcodetable16
+\CatcodeTableExpl=\catcodetable17
+)
+(c:/texlive/2024/texmf-dist/tex/lualatex/luacode/luacode.sty
+Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
+\luacode@lines=\toks18
+\luacode@table@soft=\catcodetable18
+)
+Inserting `~' in `pre_linebreak_filter'.)
+(c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count271
+\Gm@cntv=\count272
+\c@Gm@tempcnt=\count273
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks21
+)
+(c:/texlive/2024/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip51
+\multirow@cntb=\count274
+\multirow@dima=\skip52
+\bigstrutjot=\dimen152
+)
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(c:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks22
+))
+(c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(c:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count275
+)
+(c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count276
+)
+(c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen153
+\Hy@linkcounter=\count277
+\Hy@pagecounter=\count278
+
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count279
+
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count280
+
+(c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen154
+
+(c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count281
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count282
+\c@Item=\count283
+\c@Hfootnote=\count284
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(c:/texlive/2024/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2024-11-05 v7.01l Hyperref driver for luaTeX
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count285
+\c@bookmark@seq@number=\count286
+
+(c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip53
+)
+(c:/texlive/2024/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(c:/texlive/2024/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen157
+))
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen158
+)
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count287
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count288
+\leftroot@=\count289
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count290
+\DOTSCASE@=\count291
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen159
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count292
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count293
+\dotsspace@=\muskip18
+\c@parentequation=\count294
+\dspbrk@lvl=\count295
+\tag@help=\toks24
+\row@=\count296
+\column@=\count297
+\maxfields@=\count298
+\andhelp@=\toks25
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks26
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count299
+\float@exts=\toks28
+\float@box=\box54
+\@float@everytoks=\toks29
+\@floatcapt=\box55
+)
+(c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(c:/texlive/2024/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count300
+\rotFPtop=\skip57
+\rotFPbot=\skip58
+\rot@float@box=\box56
+\rot@mess@toks=\toks30
+)
+(c:/texlive/2024/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen166
+\captionmargin=\dimen167
+\caption@leftmargin=\dimen168
+\caption@rightmargin=\dimen169
+\caption@width=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count301
+\c@continuedfloat=\count302
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+)
+\c@KVtest=\count303
+\sf@farskip=\skip59
+\sf@captopadj=\dimen174
+\sf@capskip=\skip60
+\sf@nearskip=\skip61
+\c@subfigure=\count304
+\c@subfigure@save=\count305
+\c@lofdepth=\count306
+\c@subtable=\count307
+\c@subtable@save=\count308
+\c@lotdepth=\count309
+\sf@top=\skip62
+\sf@bottom=\skip63
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count310
+\lst@gtempboxa=\box57
+\lst@token=\toks31
+\lst@length=\count311
+\lst@currlwidth=\dimen175
+\lst@column=\count312
+\lst@pos=\count313
+\lst@lostspace=\dimen176
+\lst@width=\dimen177
+\lst@newlines=\count314
+\lst@lineno=\count315
+\lst@maxwidth=\dimen178
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count316
+\lst@skipnumbers=\count317
+\lst@framebox=\box58
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(c:/texlive/2024/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2024/11/17 v3.4.0 Yet another Pygments shim for LaTeX
+
+(c:/texlive/2024/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(c:/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(c:/texlive/2024/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2024/11/17 v1.10.0 fvextra - extensions and patches for fancyv
+rb
+
+(c:/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count318
+\FV@InFile=\read3
+\FV@TabBox=\box59
+\c@FancyVerbLine=\count319
+\FV@StepNumber=\count320
+\FV@OutFile=\write4
+)
+(c:/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+))
+(c:/texlive/2024/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+\linenopenalty=\count321
+\output=\toks32
+\linenoprevgraf=\count322
+\linenumbersep=\dimen179
+\linenumberwidth=\dimen180
+\c@linenumber=\count323
+\c@pagewiselinenumber=\count324
+\c@LN@truepage=\count325
+\c@internallinenumber=\count326
+\c@internallinenumbers=\count327
+\quotelinenumbersep=\dimen181
+\bframerule=\dimen182
+\bframesep=\dimen183
+\bframebox=\box60
+\linenoamsmath@ams@eqpen=\count328
+LaTeX Info: Redefining \\ on input line 3180.
+)
+\c@FancyVerbWriteLine=\count329
+\c@FancyVerbBufferLine=\count330
+\c@FV@TrueTabGroupLevel=\count331
+\c@FV@TrueTabCounter=\count332
+\FV@TabBox@Group=\box61
+\FV@TmpLength=\skip64
+\c@FV@HighlightLinesStart=\count333
+\c@FV@HighlightLinesStop=\count334
+\FV@LoopCount=\count335
+\FV@NCharsBox=\box62
+\FV@BreakIndent=\dimen184
+\FV@BreakIndentNChars=\count336
+\FV@BreakSymbolSepLeft=\dimen185
+\FV@BreakSymbolSepLeftNChars=\count337
+\FV@BreakSymbolSepRight=\dimen186
+\FV@BreakSymbolSepRightNChars=\count338
+\FV@BreakSymbolIndentLeft=\dimen187
+\FV@BreakSymbolIndentLeftNChars=\count339
+\FV@BreakSymbolIndentRight=\dimen188
+\FV@BreakSymbolIndentRightNChars=\count340
+\c@FancyVerbLineBreakLast=\count341
+\FV@LineBox=\box63
+\FV@LineIndentBox=\box64
+\c@FV@BreakBufferDepth=\count342
+\FV@LineWidth=\dimen189
+)
+(c:/texlive/2024/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
+Package: latex2pydata 2024/11/17 v0.4.0 latex2pydata - write data to file in Py
+thon literal format
+)
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+de.tex
+\pgfkeys@tmptoks=\toks35
+))) (c:/texlive/2024/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks36
+\pgfopts@list@add@b@toks=\toks37
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@minted@FancyVerbLineTemp=\count343
+\@float@every@listing=\toks38
+\c@listing=\count344
+)
+(c:/texlive/2024/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(c:/texlive/2024/texmf-dist/tex/latex/hvfloat/hvfloat.sty
+Package: hvfloat 2024/10/02 v2.51 special floating objects (hv)
+
+(c:/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box65
+\sift@deathcycles=\count345
+\@vwid@loff=\dimen190
+\@vwid@roff=\dimen191
+)
+(c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+LaTeX Info: Redefining \subref on input line 189.
+Package subcaption Info: The counter `subfigure' was already defined by
+(subcaption)             \newsubfloat (offered by the subfig package) on input 
+line 238.
+Package subcaption Info: The counter `subtable' was already defined by
+(subcaption)             \newsubfloat (offered by the subfig package) on input 
+line 238.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/picture/picture.sty
+Package: picture 2020-04-22 v1.6 Dimens for picture macros (HO)
+Package picture Info: Calculation method: etex.
+)
+(c:/texlive/2024/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(c:/texlive/2024/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box66
+)
+(c:/texlive/2024/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+
+(c:/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(c:/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+)
+\XKV@depth=\count346
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+\tc@llx=\dimen192
+\tc@lly=\dimen193
+\tc@urx=\dimen194
+\tc@ury=\dimen195
+
+(c:/texlive/2024/texmf-dist/tex/latex/adjustbox/tc-pgf.def
+File: tc-pgf.def 2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
+
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks41
+\pgfutil@tempdima=\dimen196
+\pgfutil@tempdimb=\dimen197
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box67
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen198
+\pgf@y=\dimen199
+\pgf@xa=\dimen256
+\pgf@ya=\dimen257
+\pgf@xb=\dimen258
+\pgf@yb=\dimen259
+\pgf@xc=\dimen260
+\pgf@yc=\dimen261
+\pgf@xd=\dimen262
+\pgf@yd=\dimen263
+\w@pgf@writea=\write5
+\r@pgf@reada=\read4
+\c@pgf@counta=\count347
+\c@pgf@countb=\count348
+\c@pgf@countc=\count349
+\c@pgf@countd=\count350
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
+\pgf@sys@id@count=\count351
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count352
+\pgfsyssoftpath@bigbuffer@items=\count353
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen264
+\pgfmath@count=\count354
+\pgfmath@box=\box68
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count355
+))
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen265
+\pgf@picmaxx=\dimen266
+\pgf@picminy=\dimen267
+\pgf@picmaxy=\dimen268
+\pgf@pathminx=\dimen269
+\pgf@pathmaxx=\dimen270
+\pgf@pathminy=\dimen271
+\pgf@pathmaxy=\dimen272
+\pgf@xx=\dimen273
+\pgf@xy=\dimen274
+\pgf@yx=\dimen275
+\pgf@yy=\dimen276
+\pgf@zx=\dimen277
+\pgf@zy=\dimen278
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen279
+\pgf@path@lasty=\dimen280
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen281
+\pgf@shorten@start@additional=\dimen282
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box69
+\pgf@hbox=\box70
+\pgf@layerbox@main=\box71
+\pgf@picture@serial@count=\count356
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen283
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen284
+\pgf@pt@y=\dimen285
+\pgf@pt@temp=\dimen286
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen287
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen288
+\pgf@sys@shading@range@num=\count357
+\pgf@shadingcount=\count358
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box72
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box73
+)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen289
+\pgf@nodesepend=\dimen290
+)
+(c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)))
+Package trimclip Info: No clipping driver 'tc-luatex.def' available.
+(trimclip)             Using fall-back PGF driver.
+) (c:/texlive/2024/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count359
+)
+(c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-11-02 L3 programming layer (loader) 
+
+(c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count360
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box74
+))
+(c:/texlive/2024/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(c:/texlive/2024/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count361
+\multidocount=\count362
+\multido@stuff=\toks48
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+) (c:/texlive/2024/texmf-dist/tex/latex/fbox/fbox.sty
+Package: fbox 2023/12/04 v. 0.07 allow parts of the frame (hv)
+\fbox@@rule=\skip65
+\fbox@@sep=\skip66
+\fbox@@linewidth=\skip67
+\fpar@b@x=\box75
+) (c:/texlive/2024/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count363
+)
+(c:/texlive/2024/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks49
+\AP@partial=\box76
+\AP@footins=\box77
+)
+(c:/texlive/2024/texmf-dist/tex/latex/zref/zref-savepos.sty
+Package: zref-savepos 2023-09-14 v2.35 Module savepos for zref (HO)
+
+(c:/texlive/2024/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+
+(c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+Package zref Info: New property list: savepos on input line 79.
+Package zref Info: New property: posx on input line 84.
+Package zref Info: New property: posy on input line 85.
+)
+\@tempx=\dimen291
+\@tempy=\dimen292
+\c@hvfloat@testCtr=\count364
+\c@hvfloat@ref=\count365
+\hv@float@head=\dimen293
+\hv@float@foot=\dimen294
+
+(c:/texlive/2024/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count366
+\c@dblbotnumber=\count367
+)
+\hvObjectWidth=\skip68
+\hvCapWidth=\skip69
+\hvWideWidth=\skip70
+\hvMultiFloatSkip=\skip71
+\hvNonFloatTopSkip=\skip72
+\hvMaxCapWidth=\skip73
+\hvFloatFullWidth=\skip74
+\hvObjectBox=\box78
+\hvCaptionBox=\box79
+\hvOBox=\box80
+\@tempbox=\box81
+\hv@caption@box=\box82
+\hv@leftBox=\box83
+\hv@rightBox=\box84
+\hvSet@bindCorrection=\skip75
+\hvSet@sepLineskip=\skip76
+\hv@leftPageObjectWidth=\skip77
+\hv@tempWidthA=\skip78
+\hv@tempWidthB=\skip79
+\hv@minTextlines=\skip80
+\hv@floatCapSep=\skip81
+\hvSet@bindCorr=\skip82
+\hvAboveCaptionSkip=\skip83
+\hvBelowCaptionSkip=\skip84
+\hv@dblfptop=\skip85
+\hv@fptop=\skip86
+\hv@@capPos=\count368
+\fboxlinewidth=\skip87
+\hv@maxImageWidth=\skip88
+\c@hv@tempCNTfigA=\count369
+\c@hv@tempCNTfigB=\count370
+\c@hv@tempCNTtabA=\count371
+\c@hv@tempCNTtabB=\count372
+\c@hv@pfigure=\count373
+\c@hv@ptable=\count374
+\c@subhv@pfigure=\count375
+\c@subhv@ptable=\count376
+\hv@tempcnt=\count377
+\hv@cnta=\count378
+\hv@cntb=\count379
+\hv@boxLeftPage=\box85
+\hv@boxRightPage=\box86
+
+(c:/texlive/2024/texmf-dist/tex/latex/hvfloat/hvfloat-3.inc)
+(c:/texlive/2024/texmf-dist/tex/latex/hvfloat/hvfloat-2.inc)
+(c:/texlive/2024/texmf-dist/tex/latex/hvfloat/hvfloat-1.inc)
+(c:/texlive/2024/texmf-dist/tex/latex/hvfloat/hvfloat-0.inc)) (./main.aux)
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+
+(c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count380
+\scratchdimen=\dimen295
+\scratchbox=\box87
+\nofMPsegments=\count381
+\nofMParguments=\count382
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count383
+\MPscratchDim=\dimen296
+\MPnumerator=\count384
+\makeMPintoPDFobject=\count385
+\everyMPtoPDFconversion=\toks51
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=28.45274pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 39.
+(./main.out) (./main.out)
+\@outlinefile=\write6
+
+\openout6 = main.out
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count386
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+) (./title.tex
+Package epstopdf Info: Source file: <agh_nzw_s_pl_1w_wbr_pms.eps>
+(epstopdf)                    date: 2024-06-19 23:34:54
+(epstopdf)                    size: 233161 bytes
+(epstopdf)             Output file: <agh_nzw_s_pl_1w_wbr_pms-eps-converted-to.p
+df>
+(epstopdf)                    date: 2024-06-19 23:36:38
+(epstopdf)                    size: 9722 bytes
+(epstopdf)             Command: <repstopdf --outfile=agh_nzw_s_pl_1w_wbr_pms-ep
+s-converted-to.pdf agh_nzw_s_pl_1w_wbr_pms.eps>
+(epstopdf)             \includegraphics on input line 5.
+Package epstopdf Info: Output file is already uptodate.
+<agh_nzw_s_pl_1w_wbr_pms-eps-converted-to.pdf, id=123, 251.94125pt x 123.46124p
+t>
+File: agh_nzw_s_pl_1w_wbr_pms-eps-converted-to.pdf Graphic file (type pdf)
+<use agh_nzw_s_pl_1w_wbr_pms-eps-converted-to.pdf>
+Package luatex.def Info: agh_nzw_s_pl_1w_wbr_pms-eps-converted-to.pdf  used on 
+input line 5.
+(luatex.def)             Requested size: 314.92578pt x 154.32614pt.
+
+
+[1
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./agh_nzw_s_pl_1w
+_wbr_pms-eps-converted-to.pdf>])
+
+[2
+
+] (./main.toc)
+\tf@toc=\write7
+
+\openout7 = main.toc
+ (./chapter0.tex
+
+[3]
+
+[4
+
+]
+Rozdział 1.
+) (./chapter1.tex
+
+[5]
+
+[6
+
+]
+Rozdział 2.
+Excluding 'comment' comment.
+<images/przetworniceDC.png, id=205, 533.74406pt x 752.8125pt>
+File: images/przetworniceDC.png Graphic file (type png)
+<use images/przetworniceDC.png>
+Package luatex.def Info: images/przetworniceDC.png  used on input line 76.
+(luatex.def)             Requested size: 284.52756pt x 401.32057pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[7]
+
+[8<./images/przetworniceDC.png>] Excluding 'comment' comment.
+<images/przykladowaSprawnosc.png, id=227, 367.3725pt x 231.11343pt>
+File: images/przykladowaSprawnosc.png Graphic file (type png)
+<use images/przykladowaSprawnosc.png>
+Package luatex.def Info: images/przykladowaSprawnosc.png  used on input line 14
+2.
+(luatex.def)             Requested size: 284.52756pt x 179.00879pt.
+
+
+[9<./images/przykladowaSprawnosc.png>]) (./chapter2.tex
+
+[10]
+Rozdział 3.
+<images/n6705c.png, id=248, 602.25pt x 410.7345pt>
+File: images/n6705c.png Graphic file (type png)
+<use images/n6705c.png>
+Package luatex.def Info: images/n6705c.png  used on input line 23.
+(luatex.def)             Requested size: 426.79134pt x 291.08453pt.
+<images/elektroautomatik.jpg, id=251, 670.505pt x 307.1475pt>
+File: images/elektroautomatik.jpg Graphic file (type jpg)
+<use images/elektroautomatik.jpg>
+Package luatex.def Info: images/elektroautomatik.jpg  used on input line 36.
+(luatex.def)             Requested size: 426.79134pt x 195.50516pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[11
+
+<./images/n6705c.png>]
+<images/labview.png, id=265, 633.86812pt x 403.5075pt>
+File: images/labview.png Graphic file (type png)
+<use images/labview.png>
+Package luatex.def Info: images/labview.png  used on input line 68.
+(luatex.def)             Requested size: 426.79134pt x 271.69086pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapter3.tex
+
+[12<./images/elektroautomatik.jpg>] Excluding 'comment' comment.
+
+[13<./images/labview.png>]
+<images/schemat_blokowy.png, id=283, 523.9575pt x 379.4175pt>
+File: images/schemat_blokowy.png Graphic file (type png)
+<use images/schemat_blokowy.png>
+Package luatex.def Info: images/schemat_blokowy.png  used on input line 65.
+(luatex.def)             Requested size: 483.69684pt x 350.27254pt.
+) (./chapter4.tex
+
+[14<./images/schemat_blokowy.png>]
+Rozdział 4.
+<images/schemat_blokowy_kontrolera_2.png, id=292, 683.31285pt x 528.2937pt>
+File: images/schemat_blokowy_kontrolera_2.png Graphic file (type png)
+<use images/schemat_blokowy_kontrolera_2.png>
+Package luatex.def Info: images/schemat_blokowy_kontrolera_2.png  used on input
+ line 30.
+(luatex.def)             Requested size: 483.69684pt x 373.97873pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[15
+
+]
+<images/rs485_voltages.jpg, id=307, 873.2625pt x 281.05pt>
+File: images/rs485_voltages.jpg Graphic file (type jpg)
+<use images/rs485_voltages.jpg>
+Package luatex.def Info: images/rs485_voltages.jpg  used on input line 68.
+(luatex.def)             Requested size: 483.69684pt x 155.67152pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Excluding 'comment' comment.
+<images/schematrs485_3.png, id=311, 1050.92625pt x 498.86375pt>
+File: images/schematrs485_3.png Graphic file (type png)
+<use images/schematrs485_3.png>
+Package luatex.def Info: images/schematrs485_3.png  used on input line 83.
+(luatex.def)             Requested size: 483.69684pt x 229.60951pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[16<./images/schemat_blokowy_kontrolera_2.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[17<./images/rs485_voltages.jpg><./images/schematrs485_3.png>]
+<images/schematwyswietlacz_2.png, id=334, 637.1805pt x 361.35pt>
+File: images/schematwyswietlacz_2.png Graphic file (type png)
+<use images/schematwyswietlacz_2.png>
+Package luatex.def Info: images/schematwyswietlacz_2.png  used on input line 11
+9.
+(luatex.def)             Requested size: 483.69684pt x 274.31458pt.
+<images/sterowaniePodswietleniem_2.png, id=336, 511.31026pt x 287.8755pt>
+File: images/sterowaniePodswietleniem_2.png Graphic file (type png)
+<use images/sterowaniePodswietleniem_2.png>
+Package luatex.def Info: images/sterowaniePodswietleniem_2.png  used on input l
+ine 130.
+(luatex.def)             Requested size: 483.69684pt x 272.34247pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/modele_przyciskow.png, id=338, 714.41907pt x 688.07062pt>
+File: images/modele_przyciskow.png Graphic file (type png)
+<use images/modele_przyciskow.png>
+Package luatex.def Info: images/modele_przyciskow.png  used on input line 154.
+(luatex.def)             Requested size: 369.88582pt x 356.24492pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[18<./images/schematwyswietlacz_2.png>]
+<images/thermocouple_2.jpg.png, id=352, 493.24275pt x 479.391pt>
+File: images/thermocouple_2.jpg.png Graphic file (type png)
+<use images/thermocouple_2.jpg.png>
+Package luatex.def Info: images/thermocouple_2.jpg.png  used on input line 171.
+
+(luatex.def)             Requested size: 369.88582pt x 359.5131pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/max6675_3.png, id=358, 987.69pt x 239.89626pt>
+File: images/max6675_3.png Graphic file (type png)
+<use images/max6675_3.png>
+Package luatex.def Info: images/max6675_3.png  used on input line 189.
+(luatex.def)             Requested size: 483.69684pt x 117.48064pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[19<./images/sterowaniePodswietleniem_2.png>]
+<images/zasilanie5v_3.png, id=375, 915.42pt x 360.34625pt>
+File: images/zasilanie5v_3.png Graphic file (type png)
+<use images/zasilanie5v_3.png>
+Package luatex.def Info: images/zasilanie5v_3.png  used on input line 216.
+(luatex.def)             Requested size: 483.69684pt x 190.39977pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/zasilanie3v_3.png, id=377, 602.25pt x 284.06125pt>
+File: images/zasilanie3v_3.png Graphic file (type png)
+<use images/zasilanie3v_3.png>
+Package luatex.def Info: images/zasilanie3v_3.png  used on input line 226.
+(luatex.def)             Requested size: 369.88582pt x 174.46906pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/wejsciezasilania_3.png, id=380, 866.23625pt x 366.36874pt>
+File: images/wejsciezasilania_3.png Graphic file (type png)
+<use images/wejsciezasilania_3.png>
+Package luatex.def Info: images/wejsciezasilania_3.png  used on input line 240.
+
+(luatex.def)             Requested size: 426.79134pt x 180.50615pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[20<./images/modele_przyciskow.png>]
+
+[21<./images/thermocouple_2.jpg.png><./images/max6675_3.png>]
+
+LaTeX Warning: Text page 22 contains only floats.
+
+
+
+[22<./images/zasilanie5v_3.png><./images/zasilanie3v_3.png><./images/wejsciezasi
+lania_3.png>]
+<images/controller_PCB.jpg, id=408, 996.72375pt x 719.68875pt>
+File: images/controller_PCB.jpg Graphic file (type jpg)
+<use images/controller_PCB.jpg>
+Package luatex.def Info: images/controller_PCB.jpg  used on input line 275.
+(luatex.def)             Requested size: 483.69684pt x 349.24629pt.
+<images/stackupPCB.png, id=411, 708.84825pt x 201.75375pt>
+File: images/stackupPCB.png Graphic file (type png)
+<use images/stackupPCB.png>
+Package luatex.def Info: images/stackupPCB.png  used on input line 294.
+(luatex.def)             Requested size: 483.69684pt x 137.67097pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[23<./images/controller_PCB.jpg>]
+<images/przetwornicamp9928_3.png, id=426, 1928.20375pt x 1319.93124pt>
+File: images/przetwornicamp9928_3.png Graphic file (type png)
+<use images/przetwornicamp9928_3.png>
+Package luatex.def Info: images/przetwornicamp9928_3.png  used on input line 35
+4.
+(luatex.def)             Requested size: 711.3189pt x 486.9168pt.
+
+
+[24<./images/stackupPCB.png>]
+
+[25<./images/przetwornicamp9928_3.png>]
+<images/schemat_do_symulacji_przetwornicy_MPSmart.png, id=453, 917.67844pt x 50
+5.89pt>
+File: images/schemat_do_symulacji_przetwornicy_MPSmart.png Graphic file (type p
+ng)
+<use images/schemat_do_symulacji_przetwornicy_MPSmart.png>
+Package luatex.def Info: images/schemat_do_symulacji_przetwornicy_MPSmart.png  
+used on input line 427.
+(luatex.def)             Requested size: 483.69684pt x 266.65375pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/bode_plot_przetwornica.png, id=455, 988.44281pt x 657.95813pt>
+File: images/bode_plot_przetwornica.png Graphic file (type png)
+<use images/bode_plot_przetwornica.png>
+Package luatex.def Info: images/bode_plot_przetwornica.png  used on input line 
+444.
+(luatex.def)             Requested size: 483.69684pt x 321.9706pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+
+ []
+
+<images/variableoutput1_2.jpg, id=458, 752.8125pt x 389.455pt>
+File: images/variableoutput1_2.jpg Graphic file (type jpg)
+<use images/variableoutput1_2.jpg>
+Package luatex.def Info: images/variableoutput1_2.jpg  used on input line 456.
+(luatex.def)             Requested size: 426.79134pt x 220.79718pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[26]
+
+LaTeX Warning: Text page 27 contains only floats.
+
+
+
+[27<./images/schemat_do_symulacji_przetwornicy_MPSmart.png><./images/bode_plot_p
+rzetwornica.png>]
+<images/voltageset55_3.png, id=484, 764.8575pt x 416.55624pt>
+File: images/voltageset55_3.png Graphic file (type png)
+<use images/voltageset55_3.png>
+Package luatex.def Info: images/voltageset55_3.png  used on input line 470.
+(luatex.def)             Requested size: 426.79134pt x 232.43724pt.
+
+
+[28<./images/variableoutput1_2.jpg><./images/voltageset55_3.png>]
+<images/pomiarpraduina219_3.png, id=496, 986.68625pt x 619.31375pt>
+File: images/pomiarpraduina219_3.png Graphic file (type png)
+<use images/pomiarpraduina219_3.png>
+Package luatex.def Info: images/pomiarpraduina219_3.png  used on input line 527
+.
+(luatex.def)             Requested size: 483.69684pt x 303.60814pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--542
+
+ []
+
+
+
+[29<./images/pomiarpraduina219_3.png>]
+<images/pomiarnapieciaroznicowo_3.png, id=512, 590.205pt x 582.175pt>
+File: images/pomiarnapieciaroznicowo_3.png Graphic file (type png)
+<use images/pomiarnapieciaroznicowo_3.png>
+Package luatex.def Info: images/pomiarnapieciaroznicowo_3.png  used on input li
+ne 552.
+(luatex.def)             Requested size: 369.88582pt x 364.86229pt.
+
+
+[30<./images/pomiarnapieciaroznicowo_3.png>]
+<images/lt1461_2.png, id=523, 663.47874pt x 449.68pt>
+File: images/lt1461_2.png Graphic file (type png)
+<use images/lt1461_2.png>
+Package luatex.def Info: images/lt1461_2.png  used on input line 594.
+(luatex.def)             Requested size: 369.88582pt x 250.69379pt.
+<images/converter_PCB.jpg, id=524, 1022.82124pt x 833.1125pt>
+File: images/converter_PCB.jpg Graphic file (type jpg)
+<use images/converter_PCB.jpg>
+Package luatex.def Info: images/converter_PCB.jpg  used on input line 615.
+(luatex.def)             Requested size: 483.69684pt x 393.97826pt.
+
+
+[31<./images/lt1461_2.png>]
+
+[32<./images/converter_PCB.jpg>]
+<images/dc_load_mosfet_2.png, id=547, 1663.21375pt x 665.48625pt>
+File: images/dc_load_mosfet_2.png Graphic file (type png)
+<use images/dc_load_mosfet_2.png>
+Package luatex.def Info: images/dc_load_mosfet_2.png  used on input line 651.
+(luatex.def)             Requested size: 483.69684pt x 193.53441pt.
+
+
+[33<./images/dc_load_mosfet_2.png>]
+<images/typical_radiator.png, id=567, 546.24075pt x 498.06075pt>
+File: images/typical_radiator.png Graphic file (type png)
+<use images/typical_radiator.png>
+Package luatex.def Info: images/typical_radiator.png  used on input line 736.
+(luatex.def)             Requested size: 199.16928pt x 181.59686pt.
+
+
+[34<./images/typical_radiator.png>]
+<images/gravityi3.jpg, id=582, 542.025pt x 542.025pt>
+File: images/gravityi3.jpg Graphic file (type jpg)
+<use images/gravityi3.jpg>
+Package luatex.def Info: images/gravityi3.jpg  used on input line 749.
+(luatex.def)             Requested size: 284.52756pt x 284.5343pt.
+<images/dc_load_PCB.jpg, id=585, 1005.7575pt x 804.00375pt>
+File: images/dc_load_PCB.jpg Graphic file (type jpg)
+<use images/dc_load_PCB.jpg>
+Package luatex.def Info: images/dc_load_PCB.jpg  used on input line 787.
+(luatex.def)             Requested size: 483.69684pt x 386.66577pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[35<./images/gravityi3.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[36<./images/dc_load_PCB.jpg>]
+<images/menu_diagram.png, id=604, 838.13126pt x 620.3175pt>
+File: images/menu_diagram.png Graphic file (type png)
+<use images/menu_diagram.png>
+Package luatex.def Info: images/menu_diagram.png  used on input line 832.
+(luatex.def)             Requested size: 483.69684pt x 357.98601pt.
+<images/main_menu_zdjece.jpg, id=606, 1072.005pt x 618.31pt>
+File: images/main_menu_zdjece.jpg Graphic file (type jpg)
+<use images/main_menu_zdjece.jpg>
+Package luatex.def Info: images/main_menu_zdjece.jpg  used on input line 849.
+(luatex.def)             Requested size: 369.88582pt x 213.33604pt.
+
+
+[37<./images/menu_diagram.png>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 858.
+
+
+[38<./images/main_menu_zdjece.jpg>]
+<images/dc_converter_menu_zdjecie.jpg, id=647, 1091.07625pt x 622.325pt>
+File: images/dc_converter_menu_zdjecie.jpg Graphic file (type jpg)
+<use images/dc_converter_menu_zdjecie.jpg>
+Package luatex.def Info: images/dc_converter_menu_zdjecie.jpg  used on input li
+ne 922.
+(luatex.def)             Requested size: 199.16928pt x 113.59947pt.
+<images/dc_load_menu_zdjecie.jpg, id=648, 1107.13625pt x 625.33624pt>
+File: images/dc_load_menu_zdjecie.jpg Graphic file (type jpg)
+<use images/dc_load_menu_zdjecie.jpg>
+Package luatex.def Info: images/dc_load_menu_zdjecie.jpg  used on input line 92
+4.
+(luatex.def)             Requested size: 199.16928pt x 112.48886pt.
+
+Underfull \vbox (badness 4441) has occurred while \output is active []
+
+
+
+[39<./images/dc_converter_menu_zdjecie.jpg><./images/dc_load_menu_zdjecie.jpg>]
+<images/submodule_code_diagram.png, id=681, 744.7825pt x 724.7075pt>
+File: images/submodule_code_diagram.png Graphic file (type png)
+<use images/submodule_code_diagram.png>
+Package luatex.def Info: images/submodule_code_diagram.png  used on input line 
+957.
+(luatex.def)             Requested size: 312.9803pt x 304.552pt.
+
+
+[40<./images/submodule_code_diagram.png>]
+
+[41]
+<images/obudowa_render-removebg.png, id=750, 622.12425pt x 452.892pt>
+File: images/obudowa_render-removebg.png Graphic file (type png)
+<use images/obudowa_render-removebg.png>
+Package luatex.def Info: images/obudowa_render-removebg.png  used on input line
+ 1066.
+(luatex.def)             Requested size: 483.69684pt x 352.13481pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/ugs.png, id=752, 764.8575pt x 555.87675pt>
+File: images/ugs.png Graphic file (type png)
+<use images/ugs.png>
+Package luatex.def Info: images/ugs.png  used on input line 1080.
+(luatex.def)             Requested size: 213.39566pt x 155.08461pt.
+<images/frezarka_3018.jpg, id=753, 1284.8pt x 963.6pt>
+File: images/frezarka_3018.jpg Graphic file (type jpg)
+<use images/frezarka_3018.jpg>
+Package luatex.def Info: images/frezarka_3018.jpg  used on input line 1082.
+(luatex.def)             Requested size: 213.39566pt x 160.04578pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/druk3d.png, id=755, 650.43pt x 354.123pt>
+File: images/druk3d.png Graphic file (type png)
+<use images/druk3d.png>
+Package luatex.def Info: images/druk3d.png  used on input line 1094.
+(luatex.def)             Requested size: 426.79134pt x 232.37102pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/zdjecie_kompletne.jpg, id=758, 1284.8pt x 963.6pt>
+File: images/zdjecie_kompletne.jpg Graphic file (type jpg)
+<use images/zdjecie_kompletne.jpg>
+Package luatex.def Info: images/zdjecie_kompletne.jpg  used on input line 1104.
+
+(luatex.def)             Requested size: 426.79134pt x 320.09155pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/zdjecie_elektroniki.jpg, id=759, 963.6pt x 1284.8pt>
+File: images/zdjecie_elektroniki.jpg Graphic file (type jpg)
+<use images/zdjecie_elektroniki.jpg>
+Package luatex.def Info: images/zdjecie_elektroniki.jpg  used on input line 111
+2.
+(luatex.def)             Requested size: 963.59766pt x 1284.79688pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+
+[42] (./chapter5.tex
+
+[43<./images/obudowa_render-removebg.png><./images/ugs.png><./images/frezarka_30
+18.jpg>]
+
+[44<./images/druk3d.png><./images/zdjecie_kompletne.jpg>]
+
+[45<./images/zdjecie_elektroniki.jpg>]
+
+[46
+
+]
+Rozdział 5.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 22.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 59.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 90.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 106.
+
+<images/pomiarSprawnosci.jpg, id=819, 1284.8pt x 963.6pt>
+File: images/pomiarSprawnosci.jpg Graphic file (type jpg)
+<use images/pomiarSprawnosci.jpg>
+Package luatex.def Info: images/pomiarSprawnosci.jpg  used on input line 141.
+(luatex.def)             Requested size: 426.79134pt x 320.09155pt.
+
+
+[47]
+
+[48]
+<images/sprawnoscZmierzonaMORNSUN.png, id=837, 787.14075pt x 467.94826pt>
+File: images/sprawnoscZmierzonaMORNSUN.png Graphic file (type png)
+<use images/sprawnoscZmierzonaMORNSUN.png>
+Package luatex.def Info: images/sprawnoscZmierzonaMORNSUN.png  used on input li
+ne 159.
+(luatex.def)             Requested size: 426.79134pt x 253.72363pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/sprawnoscProducentMORNSUN.png, id=838, 529.98pt x 360.1455pt>
+File: images/sprawnoscProducentMORNSUN.png Graphic file (type png)
+<use images/sprawnoscProducentMORNSUN.png>
+Package luatex.def Info: images/sprawnoscProducentMORNSUN.png  used on input li
+ne 167.
+(luatex.def)             Requested size: 426.79134pt x 290.02916pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[49<./images/pomiarSprawnosci.jpg>]) (./chapter6.tex
+
+[50<./images/sprawnoscZmierzonaMORNSUN.png><./images/sprawnoscProducentMORNSUN.p
+ng>]
+Rozdział 6.
+) (./bibliography.tex
+
+[51
+
+]
+
+[52
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\TU/lmr/m/n/10.95 Mo-duł prze-twor-nicy OmniON, []$\TU/lmtt/m/n/10.95 https:/
+/www.mouser.it/new/omnion-[]power/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[]\TU/lmr/m/n/10.95 Da-ta-sheet STM32F401VET6, []$\TU/lmtt/m/n/10.95 https://www
+.st.com/content/ccc/resource/technical/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+\TU/lmtt/m/n/10.95 document/datasheet/30/91/86/2d/db/94/4a/d6/DM00102166.pdf/fil
+es/DM00102166.pdf/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[]\TU/lmr/m/n/10.95 Da-ta-sheet MAX3485, []$\TU/lmtt/m/n/10.95 https://www.analo
+g.com/media/cn/technical-[]documentation/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[]\TU/lmr/m/n/10.95 Stan-dardy RS422/RS485, []$\TU/lmtt/m/n/10.95 https://www.de
+lock.com/infothek/RS-[]422_RS-[]485/RS-[]422_
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 23--24
+[]\TU/lmr/m/n/10.95 Kon-tro-ler SSD1963, []$\TU/lmtt/m/n/10.95 https://ww1.micro
+chip.com/downloads/en/DeviceDoc/SSD1963_LCD_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]\TU/lmr/m/n/10.95 Da-ta-sheet MAX6675, []$\TU/lmtt/m/n/10.95 https://www.analo
+g.com/media/en/technical-[]documentation/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\TU/lmr/m/n/10.95 Zja-wi-sko Se-ebecka, []$\TU/lmtt/m/n/10.95 https://www.tech
+target.com/searchnetworking/definition/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]\TU/lmr/m/n/10.95 Do-ku-men-ta-cja AM-SRI1, []$\TU/lmtt/m/n/10.95 http://www.a
+imtec.com/site/Aimtec/files/Datasheet/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[]\TU/lmr/m/n/10.95 Do-ku-men-ta-cja układu prze-twor-nicy MP9928, []$\TU/lmtt
+/m/n/10.95 https://www.monolithicpower.com/en/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\TU/lmtt/m/n/10.95 documentview/productdocument/index/version/2/document_type/Da
+tasheet/lang/en/sku/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+\TU/lmtt/m/n/10.95 MP9928/?srsltid=AfmBOoq7GuS46Yk88IgI9IL9-[]YGCLxkan8e_ik8h-[
+]mNoc0YwlZz8QCuL$[]\TU/lmr/m/n/10.95 , do-stęp
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 37--38
+\TU/lmtt/m/n/10.95 slva477b.pdf?ts=1733342064235&ref_url=https%253A%252F%252Fwww
+.google.com%252F$[]\TU/lmr/m/n/10.95 , do-
+ []
+
+
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]\TU/lmr/m/n/10.95 Płytka ewa-lu-acyjna MP9928, []$\TU/lmtt/m/n/10.95 https://
+www.monolithicpower.com/en/documentview/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\TU/lmtt/m/n/10.95 productdocument/index/version/2/document_type/Datasheet/lang/
+en/sku/EV9928-[]F-[]00B/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+[]\TU/lmr/m/n/10.95 Opro-gra-mo-wa-nie MPSmart, []$\TU/lmtt/m/n/10.95 https://ww
+w.monolithicpower.com/en/mpsmart-[]v9.html?
+ []
+
+
+Overfull \hbox (10.01247pt too wide) in paragraph at lines 47--48
+\TU/lmtt/m/n/10.95 technical-[]articles/a-[]3step-[]approach-[]for-[]designing-[]a-[]variable-[]output-[]buck-[]regulator.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]\TU/lmr/m/n/10.95 Key-si-ght N6705C, []$\TU/lmtt/m/n/10.95 https://www.keysigh
+t.com/us/en/product/N6705C/
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 51--52
+[]\TU/lmr/m/n/10.95 Do-ku-men-ta-cja układu po-miaru prądu i na-pię-cia INA21
+9, []$\TU/lmtt/m/n/10.95 https://www.ti.com/lit/ds/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\TU/lmtt/m/n/10.95 symlink/ina219.pdf?ts=1731224153420&ref_url=https%253A%252F%2
+52Fwww.google.com%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+[]\TU/lmr/m/n/10.95 Do-ku-men-ta-cja mi-kro-kon-tro-lera STM32F303K8T6, []$\TU/
+lmtt/m/n/10.95 https://www.st.com/resource/en/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\TU/lmr/m/n/10.95 Do-ku-men-ta-cja układu LT1461CC, []$\TU/lmtt/m/n/10.95 htt
+ps://www.analog.com/media/en/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+[]\TU/lmr/m/n/10.95 Nota apli-ka-cyjna AND8199/D, []$\TU/lmtt/m/n/10.95 https://
+www.onsemi.cn/PowerSolutions/document/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[]\TU/lmr/m/n/10.95 Do-ku-men-ta-cja ra-dia-tora RA-T2X-51E, []$\TU/lmtt/m/n/10
+.95 https://www.tme.eu/Document/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+[]\TU/lmr/m/n/10.95 Elek-tro-Au-to-ma-tik, []$\TU/lmtt/m/n/10.95 https://elektro
+automatik.com/en/products/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]\TU/lmr/m/n/10.95 Bi-blio-teka dri-vera do SSD1963, []$\TU/lmtt/m/n/10.95 http
+s://github.com/offpic/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+[]\TU/lmr/m/n/10.95 Opro-gra-mo-wa-nie fu-sion360, []$\TU/lmtt/m/n/10.95 https:/
+/www.autodesk.com/products/fusion-[]360$[]\TU/lmr/m/n/10.95 , do-stęp
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+[]\TU/lmr/m/n/10.95 Złą-cze ter-mo-pary RS COM-PO-NENTS, []$\TU/lmtt/m/n/10.9
+5 https://pl.rs-[]online.com/web/p/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+\TU/lmtt/m/n/10.95 akcesoria-[]do-[]czujnikow/4559742?srsltid=AfmBOooj4xmu6XScA-
+[]BCboP2SBJIe7dSX3QR98rF_
+ []
+
+
+
+[54]) (./attachment.tex
+
+[55]
+
+[56
+
+]
+Dodatek A.
+<zalaczniki/kontroler/Kontroler_Strona_15.jpg, id=955, 1433.47545pt x 963.72044
+pt>
+File: zalaczniki/kontroler/Kontroler_Strona_15.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_15.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_15.jpg  used on 
+input line 10.
+(luatex.def)             Requested size: 483.69684pt x 325.17545pt.
+<zalaczniki/kontroler/Kontroler_Strona_01.jpg, id=956, 686.565pt x 542.025pt>
+File: zalaczniki/kontroler/Kontroler_Strona_01.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_01.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_01.jpg  used on 
+input line 17.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/kontroler/Kontroler_Strona_02.jpg, id=957, 686.565pt x 542.025pt>
+File: zalaczniki/kontroler/Kontroler_Strona_02.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_02.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_02.jpg  used on 
+input line 24.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/kontroler/Kontroler_Strona_03.jpg, id=958, 686.565pt x 542.025pt>
+File: zalaczniki/kontroler/Kontroler_Strona_03.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_03.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_03.jpg  used on 
+input line 31.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/kontroler/Kontroler_Strona_04.jpg, id=959, 686.565pt x 542.025pt>
+File: zalaczniki/kontroler/Kontroler_Strona_04.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_04.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_04.jpg  used on 
+input line 38.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/kontroler/Kontroler_Strona_05.jpg, id=960, 686.565pt x 542.025pt>
+File: zalaczniki/kontroler/Kontroler_Strona_05.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_05.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_05.jpg  used on 
+input line 45.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/kontroler/Kontroler_Strona_06.jpg, id=961, 686.565pt x 542.025pt>
+File: zalaczniki/kontroler/Kontroler_Strona_06.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_06.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_06.jpg  used on 
+input line 52.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/kontroler/Kontroler_Strona_07.jpg, id=962, 686.565pt x 542.025pt>
+File: zalaczniki/kontroler/Kontroler_Strona_07.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_07.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_07.jpg  used on 
+input line 59.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/kontroler/Kontroler_Strona_08.jpg, id=963, 686.565pt x 542.025pt>
+File: zalaczniki/kontroler/Kontroler_Strona_08.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_08.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_08.jpg  used on 
+input line 66.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/kontroler/Kontroler_Strona_09.jpg, id=964, 686.565pt x 542.025pt>
+File: zalaczniki/kontroler/Kontroler_Strona_09.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_09.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_09.jpg  used on 
+input line 73.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/kontroler/Kontroler_Strona_10.jpg, id=965, 686.565pt x 542.025pt>
+File: zalaczniki/kontroler/Kontroler_Strona_10.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_10.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_10.jpg  used on 
+input line 80.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/kontroler/Kontroler_Strona_11.jpg, id=966, 1433.47545pt x 963.72044
+pt>
+File: zalaczniki/kontroler/Kontroler_Strona_11.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_11.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_11.jpg  used on 
+input line 87.
+(luatex.def)             Requested size: 426.79134pt x 286.92729pt.
+<zalaczniki/kontroler/Kontroler_Strona_12.jpg, id=967, 1433.47545pt x 963.72044
+pt>
+File: zalaczniki/kontroler/Kontroler_Strona_12.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_12.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_12.jpg  used on 
+input line 94.
+(luatex.def)             Requested size: 426.79134pt x 286.92729pt.
+<zalaczniki/kontroler/Kontroler_Strona_13.jpg, id=968, 1433.47545pt x 963.72044
+pt>
+File: zalaczniki/kontroler/Kontroler_Strona_13.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_13.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_13.jpg  used on 
+input line 101.
+(luatex.def)             Requested size: 426.79134pt x 286.92729pt.
+<zalaczniki/kontroler/Kontroler_Strona_14.jpg, id=969, 1433.47545pt x 963.72044
+pt>
+File: zalaczniki/kontroler/Kontroler_Strona_14.jpg Graphic file (type jpg)
+<use zalaczniki/kontroler/Kontroler_Strona_14.jpg>
+Package luatex.def Info: zalaczniki/kontroler/Kontroler_Strona_14.jpg  used on 
+input line 108.
+(luatex.def)             Requested size: 426.79134pt x 286.92729pt.
+Dodatek B.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_13.jpg, id=970, 1438.53435pt x 
+959.7456pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_13.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_13.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_13.jpg 
+ used on input line 122.
+(luatex.def)             Requested size: 483.69684pt x 322.70663pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[57<./zalaczniki/kontroler/Kontroler_Strona_15.jpg>]
+
+[58<./zalaczniki/kontroler/Kontroler_Strona_01.jpg>]
+
+[59<./zalaczniki/kontroler/Kontroler_Strona_02.jpg>]
+
+[60<./zalaczniki/kontroler/Kontroler_Strona_03.jpg>]
+
+[61<./zalaczniki/kontroler/Kontroler_Strona_04.jpg>]
+
+[62<./zalaczniki/kontroler/Kontroler_Strona_05.jpg>]
+
+[63<./zalaczniki/kontroler/Kontroler_Strona_06.jpg>]
+
+[64<./zalaczniki/kontroler/Kontroler_Strona_07.jpg>]
+
+[65<./zalaczniki/kontroler/Kontroler_Strona_08.jpg>]
+
+[66<./zalaczniki/kontroler/Kontroler_Strona_09.jpg>]
+
+[67<./zalaczniki/kontroler/Kontroler_Strona_10.jpg>]
+
+[68<./zalaczniki/kontroler/Kontroler_Strona_11.jpg><./zalaczniki/kontroler/Kontr
+oler_Strona_12.jpg>]
+
+[69<./zalaczniki/kontroler/Kontroler_Strona_13.jpg><./zalaczniki/kontroler/Kontr
+oler_Strona_14.jpg>]
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_01.jpg, id=1039, 686.565pt x 54
+2.025pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_01.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_01.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_01.jpg 
+ used on input line 129.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_02.jpg, id=1040, 686.565pt x 54
+2.025pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_02.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_02.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_02.jpg 
+ used on input line 136.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_03.jpg, id=1041, 686.565pt x 54
+2.025pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_03.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_03.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_03.jpg 
+ used on input line 143.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_04.jpg, id=1042, 686.565pt x 54
+2.025pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_04.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_04.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_04.jpg 
+ used on input line 150.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_05.jpg, id=1043, 686.565pt x 54
+2.025pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_05.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_05.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_05.jpg 
+ used on input line 157.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_06.jpg, id=1044, 686.565pt x 54
+2.025pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_06.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_06.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_06.jpg 
+ used on input line 164.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_07.jpg, id=1045, 686.565pt x 54
+2.025pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_07.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_07.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_07.jpg 
+ used on input line 171.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_08.jpg, id=1046, 686.565pt x 54
+2.025pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_08.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_08.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_08.jpg 
+ used on input line 178.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_09.jpg, id=1047, 1438.53435pt x
+ 959.7456pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_09.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_09.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_09.jpg 
+ used on input line 185.
+(luatex.def)             Requested size: 426.79134pt x 284.74805pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_10.jpg, id=1048, 1438.53435pt x
+ 959.7456pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_10.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_10.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_10.jpg 
+ used on input line 192.
+(luatex.def)             Requested size: 426.79134pt x 284.74805pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_11.jpg, id=1049, 1438.53435pt x
+ 959.7456pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_11.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_11.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_11.jpg 
+ used on input line 199.
+(luatex.def)             Requested size: 426.79134pt x 284.74805pt.
+<zalaczniki/zasilacz/Zasilacz_regulowany_Strona_12.jpg, id=1050, 1438.53435pt x
+ 959.7456pt>
+File: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_12.jpg Graphic file (type 
+jpg)
+<use zalaczniki/zasilacz/Zasilacz_regulowany_Strona_12.jpg>
+Package luatex.def Info: zalaczniki/zasilacz/Zasilacz_regulowany_Strona_12.jpg 
+ used on input line 206.
+(luatex.def)             Requested size: 426.79134pt x 284.74805pt.
+
+Dodatek C.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_13.jpg, id=1051, 1438.53435p
+t x 959.7456pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_13.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_13.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_13.j
+pg  used on input line 219.
+(luatex.def)             Requested size: 483.69684pt x 322.70663pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[70<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_13.jpg>]
+
+[71<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_01.jpg>]
+
+[72<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_02.jpg>]
+
+[73<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_03.jpg>]
+
+[74<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_04.jpg>]
+
+[75<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_05.jpg>]
+
+[76<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_06.jpg>]
+
+[77<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_07.jpg>]
+
+[78<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_08.jpg>]
+
+[79<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_09.jpg><./zalaczniki/zasila
+cz/Zasilacz_regulowany_Strona_10.jpg>]
+
+[80<./zalaczniki/zasilacz/Zasilacz_regulowany_Strona_11.jpg><./zalaczniki/zasila
+cz/Zasilacz_regulowany_Strona_12.jpg>]
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_01.jpg, id=1111, 686.565pt x
+ 542.025pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_01.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_01.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_01.j
+pg  used on input line 226.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_02.jpg, id=1112, 686.565pt x
+ 542.025pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_02.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_02.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_02.j
+pg  used on input line 233.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_03.jpg, id=1113, 686.565pt x
+ 542.025pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_03.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_03.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_03.j
+pg  used on input line 240.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_04.jpg, id=1114, 686.565pt x
+ 542.025pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_04.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_04.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_04.j
+pg  used on input line 247.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_05.jpg, id=1115, 686.565pt x
+ 542.025pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_05.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_05.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_05.j
+pg  used on input line 254.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_06.jpg, id=1116, 686.565pt x
+ 542.025pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_06.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_06.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_06.j
+pg  used on input line 261.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_07.jpg, id=1117, 686.565pt x
+ 542.025pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_07.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_07.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_07.j
+pg  used on input line 268.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_08.jpg, id=1118, 686.565pt x
+ 542.025pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_08.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_08.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_08.j
+pg  used on input line 275.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_09.jpg, id=1119, 1438.53435p
+t x 959.7456pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_09.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_09.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_09.j
+pg  used on input line 282.
+(luatex.def)             Requested size: 426.79134pt x 284.74805pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_10.jpg, id=1120, 1438.53435p
+t x 959.7456pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_10.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_10.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_10.j
+pg  used on input line 289.
+(luatex.def)             Requested size: 426.79134pt x 284.74805pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_11.jpg, id=1121, 1438.53435p
+t x 959.7456pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_11.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_11.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_11.j
+pg  used on input line 296.
+(luatex.def)             Requested size: 426.79134pt x 284.74805pt.
+<zalaczniki/obciazenie/Obciążenie_aktywne_Strona_12.jpg, id=1122, 1438.53435p
+t x 959.7456pt>
+File: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_12.jpg Graphic file (ty
+pe jpg)
+<use zalaczniki/obciazenie/Obciążenie_aktywne_Strona_12.jpg>
+Package luatex.def Info: zalaczniki/obciazenie/Obciążenie_aktywne_Strona_12.j
+pg  used on input line 303.
+(luatex.def)             Requested size: 426.79134pt x 284.74805pt.
+
+Dodatek D.
+<zalaczniki/przyciski/Przyciski_prawe_Strona_4.jpg, id=1123, 505.1673pt x 1046.
+10825pt>
+File: zalaczniki/przyciski/Przyciski_prawe_Strona_4.jpg Graphic file (type jpg)
+
+<use zalaczniki/przyciski/Przyciski_prawe_Strona_4.jpg>
+Package luatex.def Info: zalaczniki/przyciski/Przyciski_prawe_Strona_4.jpg  use
+d on input line 316.
+(luatex.def)             Requested size: 213.39566pt x 441.90048pt.
+<zalaczniki/przyciski/Przyciski_lewe_Strona_4.jpg, id=1124, 505.1673pt x 1046.1
+0825pt>
+File: zalaczniki/przyciski/Przyciski_lewe_Strona_4.jpg Graphic file (type jpg)
+<use zalaczniki/przyciski/Przyciski_lewe_Strona_4.jpg>
+Package luatex.def Info: zalaczniki/przyciski/Przyciski_lewe_Strona_4.jpg  used
+ on input line 318.
+(luatex.def)             Requested size: 213.39566pt x 441.90048pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<zalaczniki/przyciski/Przyciski_prawe_Strona_1.jpg, id=1125, 686.565pt x 542.02
+5pt>
+File: zalaczniki/przyciski/Przyciski_prawe_Strona_1.jpg Graphic file (type jpg)
+
+<use zalaczniki/przyciski/Przyciski_prawe_Strona_1.jpg>
+Package luatex.def Info: zalaczniki/przyciski/Przyciski_prawe_Strona_1.jpg  use
+d on input line 324.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/przyciski/Przyciski_lewe_Strona_1.jpg, id=1126, 686.565pt x 542.025
+pt>
+File: zalaczniki/przyciski/Przyciski_lewe_Strona_1.jpg Graphic file (type jpg)
+<use zalaczniki/przyciski/Przyciski_lewe_Strona_1.jpg>
+Package luatex.def Info: zalaczniki/przyciski/Przyciski_lewe_Strona_1.jpg  used
+ on input line 331.
+(luatex.def)             Requested size: 597.50787pt x 471.71507pt.
+<zalaczniki/przyciski/Przyciski_prawe_Strona_2.jpg, id=1127, 505.1673pt x 1046.
+10825pt>
+File: zalaczniki/przyciski/Przyciski_prawe_Strona_2.jpg Graphic file (type jpg)
+
+<use zalaczniki/przyciski/Przyciski_prawe_Strona_2.jpg>
+Package luatex.def Info: zalaczniki/przyciski/Przyciski_prawe_Strona_2.jpg  use
+d on input line 338.
+(luatex.def)             Requested size: 213.39566pt x 441.90048pt.
+<zalaczniki/przyciski/Przyciski_prawe_Strona_3.jpg, id=1128, 505.1673pt x 1046.
+10825pt>
+File: zalaczniki/przyciski/Przyciski_prawe_Strona_3.jpg Graphic file (type jpg)
+
+<use zalaczniki/przyciski/Przyciski_prawe_Strona_3.jpg>
+Package luatex.def Info: zalaczniki/przyciski/Przyciski_prawe_Strona_3.jpg  use
+d on input line 340.
+(luatex.def)             Requested size: 213.39566pt x 441.90048pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<zalaczniki/przyciski/Przyciski_lewe_Strona_2.jpg, id=1129, 505.1673pt x 1046.1
+0825pt>
+File: zalaczniki/przyciski/Przyciski_lewe_Strona_2.jpg Graphic file (type jpg)
+<use zalaczniki/przyciski/Przyciski_lewe_Strona_2.jpg>
+Package luatex.def Info: zalaczniki/przyciski/Przyciski_lewe_Strona_2.jpg  used
+ on input line 346.
+(luatex.def)             Requested size: 213.39566pt x 441.90048pt.
+<zalaczniki/przyciski/Przyciski_lewe_Strona_3.jpg, id=1130, 505.1673pt x 1046.1
+0825pt>
+File: zalaczniki/przyciski/Przyciski_lewe_Strona_3.jpg Graphic file (type jpg)
+<use zalaczniki/przyciski/Przyciski_lewe_Strona_3.jpg>
+Package luatex.def Info: zalaczniki/przyciski/Przyciski_lewe_Strona_3.jpg  used
+ on input line 348.
+(luatex.def)             Requested size: 213.39566pt x 441.90048pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+
+[81<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_13.jpg>]
+
+[82<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_01.jpg>]
+
+[83<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_02.jpg>]
+
+[84<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_03.jpg>]
+
+[85<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_04.jpg>]
+
+[86<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_05.jpg>]
+
+[87<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_06.jpg>]
+
+[88<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_07.jpg>]
+
+[89<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_08.jpg>]
+
+[90<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_09.jpg><./zalaczniki/obc
+iazenie/Obciążenie_aktywne_Strona_10.jpg>]
+
+[91<./zalaczniki/obciazenie/Obciążenie_aktywne_Strona_11.jpg><./zalaczniki/obc
+iazenie/Obciążenie_aktywne_Strona_12.jpg>]
+
+[92<./zalaczniki/przyciski/Przyciski_prawe_Strona_4.jpg><./zalaczniki/przyciski/
+Przyciski_lewe_Strona_4.jpg>]
+
+[93<./zalaczniki/przyciski/Przyciski_prawe_Strona_1.jpg>]
+
+[94<./zalaczniki/przyciski/Przyciski_lewe_Strona_1.jpg>]
+
+[95<./zalaczniki/przyciski/Przyciski_prawe_Strona_2.jpg><./zalaczniki/przyciski/
+Przyciski_prawe_Strona_3.jpg>]
+
+[96<./zalaczniki/przyciski/Przyciski_lewe_Strona_2.jpg><./zalaczniki/przyciski/P
+rzyciski_lewe_Strona_3.jpg>]
+runsystem(latexminted cleantemp  --timestamp 20241226143841 FAD58DE7366495DB4650
+CFEFAC2FCD61)...failed. 
+ (./main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 6691E49C809B9FCD172C1D85D31AF40A;4598.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 30266 strings out of 475630
+ 195340,1648299 words of node,token memory allocated
+ 1067 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 112 attribute, 70 glue_spe
+c, 58 attribute_list, 2 write, 24 pdf_action nodes
+   avail lists: 2:5885,3:627,4:2028,5:1756,6:100,7:9490,8:188,9:6609,10:18,11:89
+7
+ 51606 multiletter control sequences out of 65536+600000
+ 50 fonts using 4211935 bytes
+ 102i,14n,100p,473b,762s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/te
+xlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/
+2024/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><c:/texlive/2024/t
+exmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/2024/texmf-d
+ist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2024/texmf-dist/font
+s/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2024/texmf-dist/fonts/ope
+ntype/public/lm/lmroman12-regular.otf><c:/texlive/2024/texmf-dist/fonts/opentype
+/public/lm/lmroman12-italic.otf><c:/texlive/2024/texmf-dist/fonts/opentype/publi
+c/lm/lmroman10-bolditalic.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/
+lm/lmroman10-bold.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmrom
+ancaps10-regular.otf><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texliv
+e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb>
+Output written on main.pdf (96 pages, 32731279 bytes).
+
+PDF statistics: 1335 PDF objects out of 1440 (max. 8388607)
+ 1049 compressed objects within 11 object streams
+ 404 named destinations out of 1000 (max. 131072)
+ 248 words of extra memory for PDF output out of 10000 (max. 100000000)
+
