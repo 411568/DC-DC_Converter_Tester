@@ -8,7 +8,7 @@ It consists of three modules:
 
 ## Working principle
 
-![Menu diagram](/Dokumentacja_projektu/Engineering_project/images/menu_diagram.png)
+![Menu diagram](/Dokumentacja_projektu/Engineering_project/images/schemat_blokowy.png)
 
 
 
