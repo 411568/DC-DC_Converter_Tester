@@ -1,44 +1,9 @@
-<!---# Modular Device for Measuring DC/DC Converter Parameters
-
-The DC/DC converter tester is a device built for an engineering project at AGH University in Cracow. 
-It consists of three modules: 
-* Controller board
-* Regulated power supply
-* Active load
-
-## Working principle
-
-![Menu diagram](/Dokumentacja_projektu/Engineering_project/images/schemat_blokowy.png)
-
-The device can automatically measure the efficiency and output regulation of any connected DC converter (DUT).
-It first sets the DUT input voltage by adjusting the power supply. Then it measures the converter output voltage.
-Afterwards, it steps the output current and calculates efficiency and output voltage drop for each measurement.
-
-It displays the data in the form of a graph on the display. You can also write them onto an SD card or send to PC via
-USB or RS485 interface. 
-
-
-
-
-## Documentation and project files
-
-The files are split into a few folders. In this repository there are two submodules, namely Firmware and Hardware. 
-The firmware contains three STM32CubeIDE projects.  The hardware submodule is made up of five Altium Designer projects.
-
-Folder "Dokumentacja_projektu" contains all the required datasheets and the engineering project thesis, that documents the whole project.
-"Materialy" contains a number of images and measurements of the device.
-
-
-
-### Autor
-Krzysztof Sikora
-
-2024
--->
-
 <p align="center"><img src="https://socialify.git.ci/411568/DC-DC_Converter_Tester/image?custom_description=Device+for+measuring+output+regulation+and+efficiency+of+DC+converters.&description=1&font=Source+Code+Pro&language=1&name=1&pattern=Circuit+Board&theme=Dark" alt="DC-DC_Converter_Tester" width="640" height="320" /></p>
 
 <h2>🧐 Features</h2>
+
+
+![Project photo](/Dokumentacja_projektu/Engineering_project/images/zdjecie_kompletne.jpg)
 
 Here're some of the project's best features:
 
