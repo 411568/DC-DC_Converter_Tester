@@ -52,7 +52,7 @@ Here're some of the project's best features:
 
 <h2>🔧 How does it work?</h2>
 
-![Menu diagram](/Dokumentacja_projektu/Engineering_project/images/schemat_blokowy_png.png)
+![Menu diagram](/Dokumentacja_projektu/Engineering_project/images/schemat_blokowy.png)
 
 The block diagram shown here shows all the main components making up the DC Converter Tester. 
 
@@ -68,7 +68,7 @@ USB or RS485 interface.
 
 <h3> Controller board </h3>
 
-![Controller board PCB](/Dokumentacja_projektu/Engineering_project/images/controller_pcb_png.png)
+![Controller board PCB](/Dokumentacja_projektu/Engineering_project/images/controller_PCB.jpg)
 
 Controller board is designed around a STM32F401 microcontroller. It has an interface for LCD with SSD1963 controller, 
 inputs for buttons and encoder, three RS485 outputs for controlling submodules, thermocouple interface (K type) and a fan driver.
@@ -76,14 +76,14 @@ inputs for buttons and encoder, three RS485 outputs for controlling submodules, 
 
 <h3> Power supply board </h3>
 
-![Power supply board PCB](/Dokumentacja_projektu/Engineering_project/images/converter_pcb_png.png)
+![Power supply board PCB](/Dokumentacja_projektu/Engineering_project/images/converter_PCB.jpg)
 
 Power supply board is based on a buck converter - MP9928. It can deliver up to 20V at 3A. The output current 
 is controlled by the STM32F3 microcontroller. The output current is measured by INA219 and voltage can be sensed using the internal ADC.
 
 <h3> Active load board </h3>
 
-![Active load board PCB](/Dokumentacja_projektu/Engineering_project/images/dc_load_pcb_png.png)
+![Active load board PCB](/Dokumentacja_projektu/Engineering_project/images/dc_load_PCB.jpg)
 
 Active load module works using the principle of a current source. It consists of a single power mosfet with op-amp controlled
 feedback. The output current can be set in the range of 0 to 3A using the microcontroller's DAC. The power mosfet is being cooled
